@@ -67,7 +67,7 @@ function addAnimation(currentLetter){
   },100);
 }
 if(innerWidth < 991){
-  var text = $("h3");
+  var text = document.querySelector("h3");
   text.innerHTML="Click on the Buttons to play your Drum Kit.";
   
 }
