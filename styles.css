@@ -10,7 +10,14 @@ h1 {
   text-shadow: 3px 0 #DA0463;
 
 }
+#title2{
+  font-size: 2rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+  
 
+}
 footer {
   color: #DBEDF3;
   font-family: sans-serif;
@@ -45,7 +52,7 @@ footer {
 }
 
 .set {
-  margin: 10% auto;
+  margin: 0 auto 10%;
 }
 
 .game-over {
@@ -80,6 +87,21 @@ footer {
   background-color: white;
   cursor: pointer;
 }
-/* .drum:hover{
-  border:10px  solid ;
-} */
+.text-box{
+  display: none;
+  border: 5px solid  #DA0463;
+  
+}
+
+@media (max-width:991px){
+  .drum{
+    width: 25%;
+  }
+  .text-box{
+    display:inline-block;
+    width: 200px;
+    height: 50px;
+    font-size: 2rem;
+    color: #DA0463;
+  }
+}
