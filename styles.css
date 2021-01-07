@@ -87,21 +87,11 @@ footer {
   background-color: white;
   cursor: pointer;
 }
-.text-box{
-  display: none;
-  border: 5px solid  #DA0463;
-  
-}
+
 
 @media (max-width:991px){
   .drum{
     width: 25%;
   }
-  .text-box{
-    display:inline-block;
-    width: 200px;
-    height: 50px;
-    font-size: 2rem;
-    color: #DA0463;
-  }
+  
 }

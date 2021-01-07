@@ -68,8 +68,8 @@ function addAnimation(currentLetter){
 }
 if(innerWidth < 991){
   var text = $("h3");
-  text.innerHTML="Click on the Buttons (or) Click on the text Box ,and type the respective keys on keyboard to play your Drum Kit.";
-  text.append("<h3 id='title2' > Text Box : </label>");
+  text.innerHTML="Click on the Buttons to play your Drum Kit.";
+  
 }
 
 
